@@ -22,6 +22,7 @@ img{
 
 main{
     margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 h2{
@@ -57,4 +58,16 @@ article {
 
 .educacion, .detalles {
     font-size: 16px;
+}
+
+footer{
+    background-color: #005677;
+    text-align: center;
+    & p{
+        line-height: 40px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 20px;
+        word-spacing: 10px;
+    }
 }
